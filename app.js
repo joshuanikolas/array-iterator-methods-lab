@@ -258,7 +258,7 @@ old or older.
 // Complete the exercise in the space below:
 
 const currentYear = 2024
-let isAdultPresent = devs.some(devs => currentYear - devs.year >= 18)
+let isAdultPresent = devs.some(devs => currentYear - devs.year >= 18);
 
 // Check your work:
 console.log('Exercise 6 my result: ', isAdultPresent)
@@ -277,11 +277,9 @@ Use Array.prototype.every() to determine if every person in the devs array is
 - Store the result (true or false) in the variable 'isEveryone19OrOlder'.
 */
 
-let isEveryone19OrOlder = devs.every(dev => currentYear - dev.year >= 19);
-
 // Complete the exercise in the space below:
 
-
+let isEveryone19OrOlder = devs.every(dev => currentYear - dev.year >= 19);
 
 // Check your work:
 console.log('Exercise 7 my result: ', isEveryone19OrOlder)
