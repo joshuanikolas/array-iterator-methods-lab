@@ -298,7 +298,8 @@ a specific ID 823423 from an array of comment objects.
 - Assign the found comment object to the variable 'commentById'.
 */
 
-let commentById = {}
+let commentById = comments.find(comments => comments.id ===823423
+)
 
 // Complete the exercise in the space below:
 
