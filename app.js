@@ -165,11 +165,9 @@ from an array of inventor objects
 - Assign the found inventor object to the variable inventorNamedAda
 */
 
-let inventorNamedAda = {}
-
 // Complete the exercise in the space below:
 
-
+let inventorNamedAda = inventors.find(inventors => inventors.first === 'Ada');
 
 // Check your work:
 console.log('Exercise 4 my result: ', inventorNamedAda)
@@ -190,10 +188,7 @@ Hint: Use the String.prototype.split() method to separate the first and last
       After splitting the names, rearrange them to the "First Last" format.
 */
 
-let firstLast = []
-
 // Complete the exercise in the space below:
-
 
 
 // Check your work:
