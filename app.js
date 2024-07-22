@@ -279,7 +279,7 @@ Use Array.prototype.every() to determine if every person in the devs array is
 - Store the result (true or false) in the variable 'isEveryone19OrOlder'.
 */
 
-let isEveryone19OrOlder = devs.every(dev => currentYear - dev.yearear >= 18);
+let isEveryone19OrOlder = devs.every(dev => currentYear - dev.year >= 19);
 
 // Complete the exercise in the space below:
 
