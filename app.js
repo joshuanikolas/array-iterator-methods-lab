@@ -128,11 +128,9 @@ Sort the inventors by birth date in ascending order (from those born furthest in
 the past to those born most recently).
 */
 
-let sortedByBirthYear = []
-
 // Complete the exercise in the space below:
 
-
+let sortedByBirthYear = inventors.sort((a, b) => a.year - b.year);
 
 // Check your work:
 console.log('Exercise 3 my result: ', sortedByBirthYear)
