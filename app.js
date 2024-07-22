@@ -94,11 +94,12 @@ Hint: Return a new object literal from the callback that looks like:
       { first: "First Name", last: "Last Name" }
 */
 
-let inventorNames = []
-
 // Complete the exercise in the space below:
 
-
+let inventorNames = inventors.map(inventor => ({
+    first: inventor.first,
+    last: inventor.last
+}));
 
 // Check your work:
 console.log('Exercise 2 my result: ', inventorNames)
