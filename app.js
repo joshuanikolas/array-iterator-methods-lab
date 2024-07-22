@@ -190,6 +190,10 @@ Hint: Use the String.prototype.split() method to separate the first and last
 
 // Complete the exercise in the space below:
 
+let firstLast = people.map(fullName => {
+    const [lastName, firstName] = fullName.split(',')
+    return '$(firstName) $(lastName)'
+});
 
 // Check your work:
 console.log('Exercise 5 my result: ', firstLast)
